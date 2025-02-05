@@ -6,6 +6,10 @@
         align-items: center;
         justify-content: space-between;
     }
+/* work on navigation bar */
+nav{
+    margin: 0% 200px;
+}
     nav ul li{
        
         display: inline;
@@ -18,6 +22,7 @@
     .heading > h3{
         font-size: 45px;
         font-weight: 800;
+        background-color: #FFF8F3;
     }
 
     nav ul li a{
@@ -25,6 +30,41 @@
         color: #474747;
     }
     #btnID{
+        background-color: rgba(253, 110, 10, 1);
+        border-radius: 5px;
+        border:none;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        padding: 15px 35px;
+        height: 60px;
+        width: 160px;
+        text-shadow: #474747;
+    }
+/*banner styles */
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 200px;
+    }
+
+    .banner-greetings{
+        font-size: 45px;
+        font-weight: 600;
+        color: #474747;
+
+    }
+
+    .banner-title{
+        font-size: 85px;
+        font-weight: bold;
+    }
+    .banner-pic {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .button2{
         background-color: rgba(253, 110, 10, 1);
         border-radius: 5px;
         font-size: 20px;
@@ -36,4 +76,14 @@
         text-shadow: #474747;
     }
 
+    .banner-content{
+    max-width: 580px;
+    }
+/*background image setup */
+    .header {
+    background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin:auto;    
+    }
     
